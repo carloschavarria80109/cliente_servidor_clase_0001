@@ -64,11 +64,5 @@ public class Persona {
                 ", segundoApellido=" + segundoApellido + 
                 ", edad=" + edad + '}';
     }
-    
-    
-    
-    
-    
-    
-    
+
 }

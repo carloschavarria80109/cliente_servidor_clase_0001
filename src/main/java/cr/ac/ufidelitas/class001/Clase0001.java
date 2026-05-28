@@ -1,4 +1,5 @@
 package cr.ac.ufidelitas.class001;
+import java.util.Set;
 
 /**
  *
@@ -26,5 +27,20 @@ public class Clase0001 {
 
         System.out.println(equipo1.toString());
         System.out.println(equipo2.toString());
+        
+        //Ejemplo Persona
+        Persona persona1 = new Persona();
+        persona1.setNombre("Pablo");
+        persona1.setEdad(10);
+        
+        Empleado empleado1 = new Empleado();
+        empleado1.setAntiguedad(10);
+       
+        empleado1.setDatospersonales(persona1);
+        System.out.println("Nombre Empleado "+empleado1.getDatospersonales().getNombre());
+        System.out.println("Edad Empleado "+empleado1.getDatospersonales().getEdad());
+        
+        
     }
 }
+
